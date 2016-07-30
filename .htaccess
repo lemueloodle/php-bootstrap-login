@@ -1,0 +1,7 @@
+RewriteEngine On 
+
+# For linking register account
+RewriteRule ^register/([\[\]=,\?&@~\{\}\+'\.*!™`A-Za-z0-9_-]+)/([\[\]=,\?&@~\{\}\+'\.*!™`A-Za-z0-9_-]+)/([\[\]=,\?&@~\{\}\+'\.*!™`A-Za-z0-9_-]+)$ register.php?secret=$1&user=$2&pass=$3
+
+# Dashboard Page
+RewriteRule ^dashboard/([\[\]=,\?&@~\{\}\+'\.*!™`A-Za-z0-9_-]+)$ dashboard.php?access_token=$1
