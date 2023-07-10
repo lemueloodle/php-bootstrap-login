@@ -29,4 +29,3 @@ Once the database setup is complete. Open this link into your browser:
 ### SYSTEM FLOW
 	Login Page -> Verify Login & Check Token Validity -> Dashboard Page
 
-###Developed by Lemuel John Paule (https://lemuelpaule.xyz)
